@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    height: 75%;
+    width: 8rem;
+    background: #1E4399;
+    border-radius: 25px;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.globe {
+    display: block;
+    height: 75%;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
