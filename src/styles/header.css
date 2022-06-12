@@ -7,14 +7,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px 5px hwb(211 5% 78% / 0.56);
 }
 
 .title {
     color: rgb(255, 255, 255);
 }
 
-.mario_img {
-    padding: 2rem;
-    max-width: 75%;
-    max-height: 75%;
+.logo_img {
+    padding-left: 1rem;
+    max-width: 4rem;
 }

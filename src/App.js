@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <div>
           <Header/>
-          <Example subtitle='patata'/>
+          <Example/>
           <Footer/>
         </div>
       </header>
